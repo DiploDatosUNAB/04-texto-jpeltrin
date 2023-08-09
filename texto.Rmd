@@ -1,5 +1,5 @@
 ---
-title: "Texto"
+title: "Texto Juan"
 date: "2023-07-28"
 output: html_document
 ---
@@ -18,9 +18,9 @@ En los siguientes gráficos, agregá título, etiquetas de los ejes y texto alte
 #' fig.alt: ____
 ggplot(pinguinos, aes(especie)) +
   geom_bar() +
-  labs(title = ____,
-       x = ____
-       y = ____)
+  labs(title = "Cantidad de pingüinos por especie y sexo",
+       x = "Sexo",
+       y = "Cantidad")
 ```
 
 
